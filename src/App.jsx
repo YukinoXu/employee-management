@@ -1,5 +1,5 @@
-import { EmployeeDropdown } from './components/EmployeeDropdown/EmployeeDropdown';
 import { EmployeeTable } from './components/EmployeeTable/EmployeeTable';
+import { EmployeeSelect } from './components/EmployeeSelect/EmployeeSelect';
 import { Header } from './components/Header/Header';
 import styles from './App.module.scss'
 
@@ -8,7 +8,7 @@ function App() {
     <div className={styles.App}>
       <Header />
       <div className={styles.option}>
-        <EmployeeDropdown />
+        <EmployeeSelect />
       </div>
       <EmployeeTable />
     </div>
