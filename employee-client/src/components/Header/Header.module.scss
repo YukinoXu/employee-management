@@ -1,0 +1,38 @@
+$header-color: #3D8EF1;
+
+.container {
+  height: 80px;
+  background-color: $header-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+}
+
+.headerText {
+  color: white;
+  padding-left: 20px;
+  font-size: xx-large;
+}
+
+.link {
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logout {
+  margin: 0 50px;
+}
